@@ -220,7 +220,6 @@ const submitNewUser = () => {
           <div class="modal_window">
             <button class="modal_close" @click="showNewUserModal = false">X</button>
             <h2>Add new user</h2>
-            <p>{{newUser}}</p>
             <div class="new_user_row d-flex flex-column flex-wrap align-items-start justify-content-start">
                 <div class="mb-3">
                     <img src="/src/images/noavatar.jpg" class="img-thumbnail" alt="avatar">
